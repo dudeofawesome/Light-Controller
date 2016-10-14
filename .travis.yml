@@ -46,7 +46,7 @@ cache:
     - $HOME/.gradle/wrapper/
 
 before_install:
-  - openssl aes-256-cbc -K $encrypted_3f126342b36d_key -iv $encrypted_3f126342b36d_iv -in signing.tar.enc -out signing.tar -d
+  - openssl aes-256-cbc -K $encrypted_61ce15ab94e1_key -iv $encrypted_61ce15ab94e1_iv -in signing.tar.enc -out signing.tar -d
   - tar xvf signing.tar
 
 deploy:
