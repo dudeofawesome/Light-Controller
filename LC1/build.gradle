@@ -11,6 +11,10 @@ android {
         versionCode 1711
         multiDexEnabled true
         versionName "1.8.0 Beta 0"
+
+        jackOptions {
+            enabled true
+        }
     }
 
     if ( project.rootProject.file('signing.properties').isFile() ) {
