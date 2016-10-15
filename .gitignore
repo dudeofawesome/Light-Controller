@@ -4,11 +4,14 @@
 build
 
 # Local configuration files (sdk path, etc)
-.idea
 local.properties
 
 # Gradle generated files
 .gradle/
+
+# Android Studio
+*.iml
+.idea
 
 # Signing files
 .signing/
